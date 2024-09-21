@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+    color: #ffffff;
+}
+
+b {
+    text-shadow: 0 0 2rem #be80fc;
+    color: #be80fc;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+
+.about-container {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 60;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-content {
+    background-color: #18161a5d;
+    border: 1px solid #323232;
+    padding: 20px;
+    border-radius: 15px;
+    width: 700px;
+    opacity: 100%;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+}
+
+.main-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.skills {
+    margin-top: 60px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: left;
+}
+
+.skills-list li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #323232;
+    border-radius: 7px;
+    background-color: #1311145b;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s transform;
+}
+
+.skills-list li:hover {
+    transform: scale(102%);
+}
+
+.skills-list li img {
+    width: auto;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.links {
+    margin-top: 60px;
+}
+
+.links-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links-list-item {
+    background-color: #1311145b;
+    border: 1px solid #323232;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+    transition: .3s background-color;
+}
+
+.links-list-item:hover {
+    background-color: #201c215b;
+}
